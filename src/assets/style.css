@@ -1,0 +1,261 @@
+
+
+
+@media only screen and (min-width : 280px) and ( max-width : 600px) /* Vista desde celulares */
+{
+    .containerComplement 
+    {
+        width: 80vw;
+        height : 380px;
+        margin-top : auto;
+        margin-bottom : auto;
+        border-radius : 50px;
+        margin-right : 18%;
+        margin-left : auto;
+        box-shadow: 0px 7px 16px gray;
+    }
+    .customButtons
+    {
+        
+        border-radius : 30px;
+        border-width : 0px;
+        width : 40vw;
+        height: 3em;
+        margin-top : 24%;
+        background-image: linear-gradient(to right, #8F2A92 , #E11085);
+        color : white;
+        font-family: quicksand;   
+        font-size: 90%;
+    }
+    .customInputs
+    {
+        width: 80%;
+        height: 2.5em;
+        border-radius: 20px;
+        border-width: 0px;
+        font-family : quicksand;
+        text-align : center;
+    }
+    .textos
+    {
+        font-family: quicksand;
+        font-size: 0.9em;
+        font-weight: 520;
+    }
+}
+@media only screen and (min-width : 500) and (max-width : 800) and (max-height : 400px) /* Vista desde celulares volteado */
+{
+    .containerComplement 
+    {
+        width: 47vw;
+        height : 313px;
+        margin-top : auto;
+        margin-bottom : auto;
+        border-radius : 50px;
+        margin-right : 26%;
+        margin-left : auto;
+        box-shadow: 0px 7px 16px gray;
+    }
+    .customButtons
+    {
+        
+        border-radius : 30px;
+        border-width : 0px;
+        width : 35vw;
+        height: 2.5em;
+        margin-top : 8%;
+        background-image: linear-gradient(to right, #8F2A92 , #E11085);
+        color : white;
+        font-family: quicksand;   
+        font-size: 90%;
+    }
+    .customInputs
+    {
+        width: 80%;
+        height: 2.5em;
+        border-radius: 20px;
+        border-width: 0px;
+        font-family : quicksand;
+        text-align : center;
+    }
+    .textos
+    {
+        font-family: quicksand;
+        font-size: 0.9em;
+        font-weight: 520;
+    }
+}
+@media only screen and (min-width : 600px) and ( max-width : 800px)
+{
+    .containerComplement 
+    {
+        width: 51%;
+        height : 313px;
+        margin-top : auto;
+        margin-bottom : auto;
+        border-radius : 55px;
+        margin-right : 27%;
+        margin-left : auto;
+        box-shadow: 0px 7px 16px gray;
+    }
+    .customButtons
+    {
+        
+        border-radius : 30px;
+        border-width : 0px;
+        width : 26vw;
+        height: 3em;
+        margin-top : 24%;
+        background-image: linear-gradient(to right, #8F2A92 , #E11085);
+        color : white;
+        font-family: quicksand;   
+        font-size: 90%;
+    }
+    .customInputs
+    {
+        width: 55%;
+        min-width: 15%;
+        height: 2.5em;
+        border-radius: 20px;
+        border-width: 0px;
+        font-family : quicksand;
+        text-align : center;
+    }
+    .textos
+    {
+        font-family: quicksand;
+        font-size: 0.9em;
+        font-weight: 520;
+    }
+}
+@media only screen and (min-width : 800px) and ( max-width : 900px)
+{
+    .containerComplement 
+    {
+        width: 51vw;
+        height : 313px;
+        margin-top : auto;
+        margin-bottom : auto;
+        border-radius : 56px;
+        margin-right : 24%;
+        margin-left : auto;
+        box-shadow: 0px 7px 16px gray;
+    
+    }
+    .customButtons
+    {
+        border-radius : 30px;
+        border-width : 0px;
+        width : 22vw;
+        height: 3em;
+        margin-top : 24%;
+        background-image: linear-gradient(to right, #8F2A92 , #E11085);
+        color : white;
+        font-family: quicksand;   
+        font-size: 90%;
+    }
+    .customInputs
+    {
+        width: 55%;
+        min-width: 15%;
+        height: 2.5em;
+        border-radius: 20px;
+        border-width: 0px;
+        font-family : quicksand;
+        text-align : center;
+    }
+    .textos
+    {
+        font-family: quicksand;
+        font-size: 1.3em;
+        font-weight: 520;
+    }
+}
+@media only screen and (min-width : 900px) and ( max-width : 1200px)
+{
+    .containerComplement 
+    {
+        width: 66vw;
+        height : 550px;
+        margin-top : auto;
+        margin-bottom : auto;
+        border-radius : 77px;
+        margin-right : 18%;
+        margin-left : auto;
+        box-shadow: 0px 7px 16px gray;
+    
+    }
+    .customButtons
+    {
+        border-radius : 30px;
+        border-width : 0px;
+        width : 22vw;
+        height: 3em;
+        margin-top : 24%;
+        background-image: linear-gradient(to right, #8F2A92 , #E11085);
+        color : white;
+        font-family: quicksand;   
+        font-size: 90%;
+    }
+    .customInputs
+    {
+        width: 55%;
+        min-width: 15%;
+        height: 2.5em;
+        border-radius: 20px;
+        border-width: 0px;
+        font-family : quicksand;
+        text-align : center;
+    }
+    .textos
+    {
+        font-family: quicksand;
+        font-size: 1.3em;
+        font-weight: 520;
+    }
+}
+@media only screen and (min-width : 1200px)
+{
+    .containerComplement 
+    {
+        width: 38vw;
+        height : 450px;
+        margin-top : auto;
+        margin-bottom : auto;
+        border-radius : 77px;
+        margin-right : 31%;
+        margin-left : auto;
+        box-shadow: 0px 7px 16px gray;
+    
+    }
+    .customButtons
+    {
+        
+        border-radius : 30px;
+        border-width : 0px;
+        width : 13vw;
+        height: 3em;
+        margin-top : 24%;
+        background-image: linear-gradient(to right, #8F2A92 , #E11085);
+        color : white;
+        font-family: quicksand;   
+        font-size: 90%;
+    }
+    .customInputs
+    {
+        width: 55%;
+        min-width: 15%;
+        height: 2.5em;
+        border-radius: 20px;
+        border-width: 0px;
+        font-family : quicksand;
+        text-align : center;
+    }
+    .textos
+    {
+        font-family: quicksand;
+        font-size: 0.9em;
+        font-weight: 520;
+    }
+}
+
