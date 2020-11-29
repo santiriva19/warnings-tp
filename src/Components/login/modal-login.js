@@ -1,5 +1,4 @@
 import React from 'react';
-import '../../assets/style.css';
 import Fondo from '../../assets/img/fondoInicio4.jpg';
 import Logo from '../../assets/img/tplogomini.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
