@@ -1,11 +1,12 @@
 import React, {Component} from 'react';
+import AlertsPopUp from './TypeOfAlerts/TypeOfAlerts'
 
 class DashboardFullView extends Component
 {
     render(){
         return(
             <div>
-                <h1 style={{color : 'black'}}>Dashboard</h1>
+                <AlertsPopUp />
             </div>
 
         );
