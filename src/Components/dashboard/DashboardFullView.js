@@ -1,12 +1,13 @@
 import React, {Component} from 'react';
-import AlertsPopUp from './TypeOfAlerts/TypeOfAlerts'
+import AlertsPopUp from './TypeOfAlerts/TypeOfAlerts';
+import Registro from './Registros/Registros';
 
 class DashboardFullView extends Component
 {
     render(){
         return(
             <div>
-                <AlertsPopUp />
+                <Registro />
             </div>
 
         );

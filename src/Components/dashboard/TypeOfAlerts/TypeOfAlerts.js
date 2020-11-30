@@ -16,6 +16,19 @@ import { faInfoCircle,
 
 
 class AlertsPopUp extends Component {
+    constructor(props){
+        super(props)
+        this.state = {
+            showMenu: false
+        }
+
+        this.menuShowToggle = this.menuShowToggle.bind(this);
+    }
+
+    menuShowToggle = () => {
+        this.setState({showMenu: !this.state.showMenu})
+    }
+
     render ( ) {
         return (
             <div >
@@ -53,7 +66,12 @@ class AlertsPopUp extends Component {
 
                     </div>
                     <div style = {{display: 'flex', justifyContent: 'center'}}>
-                        <button style = {styles.button} > Salir
+                        <button 
+                            style = {styles.button}
+                            type = "button"
+                            onClick = { this.menuShowToggle }
+                            value = "toggle"  
+                        > Salir
                             {/*change displey from flex to none by DOM  */} 
                         </button>
                     </div>
@@ -76,7 +94,6 @@ const styles = {
         flexDirection : 'column',
         width : '30%',
         height : '100vh',
-        border: 'solid 2px gray'
     },
     container : 
     {
