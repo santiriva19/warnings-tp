@@ -543,12 +543,26 @@
         font-weight: 550;
         color : #575757;
     }
+    .textoSideBarCamp
+    {
+        font-family: quicksand;
+        font-size: 0.9em;
+        font-weight: 550;
+        color : #575757;
+        text-align: center;
+        margin-top: 7%;
+    }
     .iconoPerc
     {
         color : #B39FB6;
         margin-top: -37% ;
         font-size: 4vw ;
         margin-bottom: 7vw;
+    }
+    .iconMenuCamp
+    {
+        color : #484848;
+        font-size: 2vw ;
     }
     .textosResumen
     {
@@ -671,20 +685,46 @@
     padding-top: 12%;
 
 }
-.circuloDentro
+.panelBotonCampaign
 {
     display : flex;
     justify-content : center;
     align-items : center;
-    background-color: red;
-    width: 165px;
-    height: 165px;
-    border-radius: 200px;
-    position: absolute;
-    margin-left : auto;
-    margin-right : auto;
-    margin-top: 9%;
-    flex-direction: column;
+    background-color: #D3D3D3;
+    width: 30%;
+    height: 8vh;
+    border-radius: 47px;
+    margin-right : 3%;
+    flex-direction: row;
+    margin-top: 1%;
+}
+.panelBotonCampaign:hover
+{
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    background-color: #b2b2b2;
+    width: 30%;
+    height: 8vh;
+    border-radius: 47px;
+    margin-right : 3%;
+    flex-direction: row;
+    margin-top: 1%;
+}
+.contTextSideBar
+{
+    flex : 0.8; 
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.contIconSideBar
+{
+    flex : 0.2; 
+    display: flex;
+    height: 100%;
+    justify-content: flex-start;
+    align-items: center;
 }
 .tituloResumen
 {

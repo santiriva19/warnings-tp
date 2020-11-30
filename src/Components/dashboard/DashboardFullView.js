@@ -11,6 +11,8 @@ import GraficaAlertas from './GraficaAlertas'
 import NumEmple from './NumEmple'
 import AlerReci from './AlerReci'
 import Fondo from '../../assets/img/fondoDashboard.jpg'
+import SelectCamp from './SelectCamp'
+
 
 
 export default class DashboardFullView extends Component
@@ -19,11 +21,12 @@ export default class DashboardFullView extends Component
         return(
             <div style = {styles.cuerpo} >
                 <div style={styles.header}>
-                    <FontAwesomeIcon  style = {{ marginLeft : '1%', marginTop : '0.5%' }} icon={faInfoCircle} size="2x" color="#6E6E6E" />
+                    <FontAwesomeIcon style = {{ marginLeft : '1%', marginTop : '0.5%' }} icon={faInfoCircle} size="2x" color="#6E6E6E" />
                     <div style = {styles.centro}>
                         <img style = {styles.logo} src={Logo}/> 
                         <h1 className = "textoGrande" >Dashboard</h1>
                     </div>
+                    <SelectCamp/>
                 </div>
 
                 {/*  Contenedor grande */}
@@ -92,15 +95,15 @@ const styles = {
         width : '100%',
         display : 'flex',
         justifyContent: 'space-between',
-        alignItems : 'center', 
-        
+        alignItems : 'center',         
     },
     centro:{
         width : '100%',
         display : 'flex',
         justifyContent: 'center',
         alignItems : 'center', 
-        marginTop : '0.5%'
+        marginTop : '0.5%',
+        paddingLeft: '24%',
     },
     logo:{
         width : 30, 
