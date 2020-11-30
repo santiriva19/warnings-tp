@@ -10,7 +10,7 @@ export default function ResumenGen()
         <div className="panelResumen">
 
             <p className="tituloResumen">
-                Resumen General
+                Resumen General 2020
             </p>
  
             <div  style = {styles.renglon}>

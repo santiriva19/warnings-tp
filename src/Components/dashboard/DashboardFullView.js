@@ -10,13 +10,14 @@ import NumAlerta from './NumAlerta'
 import GraficaAlertas from './GraficaAlertas'
 import NumEmple from './NumEmple'
 import AlerReci from './AlerReci'
+import Fondo from '../../assets/img/fondoDashboard.jpg'
 
 
 export default class DashboardFullView extends Component
 {
     render(){
         return(
-            <div>
+            <div style = {styles.cuerpo} >
                 <div style={styles.header}>
                     <FontAwesomeIcon  style = {{ marginLeft : '1%', marginTop : '0.5%' }} icon={faInfoCircle} size="2x" color="#6E6E6E" />
                     <div style = {styles.centro}>
@@ -76,12 +77,23 @@ export default class DashboardFullView extends Component
     }
 }
 const styles = {
-    
+    /*
+    cuerpo : 
+    {
+        width : '100%',
+        height : '100vh',
+        backgroundImage : 'url('+Fondo+')',
+        backgroundSize : 'cover',
+        backgroundRepeat: 'no-repeat',
+        backgroundAttachment: 'fixed',
+    },
+    */
     header:{
         width : '100%',
         display : 'flex',
         justifyContent: 'space-between',
         alignItems : 'center', 
+        
     },
     centro:{
         width : '100%',
