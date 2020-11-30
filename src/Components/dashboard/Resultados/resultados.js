@@ -1,5 +1,11 @@
 import React from 'react';
-import './Resultados.css'
+import './Resultados.css';
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { 
+    faUsb
+    
+} from '@fortawesome/free-brands-svg-icons'
 
 
 class Boxes extends React.Component {
@@ -7,7 +13,13 @@ class Boxes extends React.Component {
     constructor() {
         super();
         this.state = {
-            info: []
+            info: [
+                {
+                    icon: faUsb,
+                    rate: '20%',
+                    alertName: 'botellas'
+                }
+            ]
         }
 
         this.apiInfo()
@@ -29,14 +41,14 @@ class Boxes extends React.Component {
     boxCointainer(props) {
         return (
             <div className="box">
-                 <FontAwesomeIcon icon={} size="2x" color="#8F2A92" />
+                 <FontAwesomeIcon icon={props.icon} size="2x" color="#8F2A92" />
                 <h3><strong>rate: {props.rate}</strong></h3>
                 <h4>alertName: {props.alertName}</h4>
             </div>
         )
     }
 
-    
+
     render() {
         return (
             <div>

@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap'); 
 
+hr {
+    width: 200px;
+    display: inline-flex;
+    height: 2px;
+    background: #707070;
+    /* margin-left: 40px; */
+}
 
 button {
     border: solid 3px #DB1F1F;
@@ -23,3 +30,9 @@ h2, p {
 p {
     margin-left: 40px ;
 }
+
+.registros {
+    margin-left: 30px;
+}
+
+/*  add background color rgba  */
