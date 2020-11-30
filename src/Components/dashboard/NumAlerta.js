@@ -28,7 +28,7 @@ const opciones = {
 export default function NumAlerta(){
     return(
         <div className = "panelNumAlerta">
-            <Line useRef="chart" data = {data} options = {opciones} />
+            <Line id ="chart" useRef="chart" data = {data} options = {opciones} />
         </div>
     );
 }

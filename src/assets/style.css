@@ -70,6 +70,23 @@
         font-size: 3vw;
         margin-right: 10%;
     }
+    .tituloAlerReci
+    {
+        font-family: quicksand;
+        font-weight: 550;
+        color : #8F2A92;
+        font-size: 1.4vw;
+        text-align: center;
+    }
+    .valorAlerReci
+    {
+        font-family: quicksand;
+        font-weight: 550;
+        color : #06A3BF;
+        font-size: 4.4vw;
+        text-align: center;
+        margin-top: -9%;
+    }
 }
 @media only screen and (min-width : 500) and (max-width : 800) and (max-height : 400px) /* Vista desde celulares volteado */
 {
@@ -142,6 +159,31 @@
         font-weight: 550;
         color : #06A3BF;
         font-size: 1.7vw;
+        margin-right: 10%;
+    }
+    .tituloAlerReci
+    {
+        font-family: quicksand;
+        font-weight: 550;
+        color : #8F2A92;
+        font-size: 1.4vw;
+        text-align: center;
+    }
+    .valorAlerReci
+    {
+        font-family: quicksand;
+        font-weight: 550;
+        color : #06A3BF;
+        font-size: 4.4vw;
+        text-align: center;
+        margin-top: -9%;
+    }
+    .textoNumeroAlertas
+    {
+        font-family: quicksand;
+        font-weight: 550;
+        color : #06A3BF;
+        font-size: 1.5vw;
         margin-right: 10%;
     }
 }
@@ -218,6 +260,37 @@
         font-size: 3vw;
         margin-right: 10%;
     }
+    .tituloAlerReci
+    {
+        font-family: quicksand;
+        font-weight: 550;
+        color : #8F2A92;
+        font-size: 1.4vw;
+        text-align: center;
+    }
+    .valorAlerReci
+    {
+        font-family: quicksand;
+        font-weight: 550;
+        color : #06A3BF;
+        font-size: 4.4vw;
+        text-align: center;
+        margin-top: -9%;
+    }
+    .textoNumeroAlertas
+    {
+        font-family: quicksand;
+        font-weight: 550;
+        color : #06A3BF;
+        font-size: 2.5vw;
+        margin-right: 10%;
+    }
+    #chart
+    {
+        display: flex;
+        width: 57vw !important;
+        height: 24vw !important;
+    }
 }
 @media only screen and (min-width : 800px) and ( max-width : 900px)
 {
@@ -287,6 +360,32 @@
         font-size: 1.7vw;
         margin-right: 10%;
     }
+    .tituloAlerReci
+    {
+        font-family: quicksand;
+        font-weight: 550;
+        color : #8F2A92;
+        font-size: 1.4vw;
+        text-align: center;
+    }
+    .valorAlerReci
+    {
+        font-family: quicksand;
+        font-weight: 550;
+        color : #06A3BF;
+        font-size: 4.4vw;
+        text-align: center;
+        margin-top: -9%;
+    }
+    .textoNumeroAlertas
+    {
+        font-family: quicksand;
+        font-weight: 550;
+        color : #06A3BF;
+        font-size: 1.5vw;
+        margin-right: 10%;
+    }
+
 }
 @media only screen and (min-width : 900px) and ( max-width : 1200px)
 {
@@ -356,6 +455,31 @@
         font-size: 1.7vw;
         margin-right: 10%;
     }
+    .tituloAlerReci
+    {
+        font-family: quicksand;
+        font-weight: 550;
+        color : #8F2A92;
+        font-size: 1.4vw;
+        text-align: center;
+    }
+    .valorAlerReci
+    {
+        font-family: quicksand;
+        font-weight: 550;
+        color : #06A3BF;
+        font-size: 4.4vw;
+        text-align: center;
+        margin-top: -9%;
+    }
+    .textoNumeroAlertas
+    {
+        font-family: quicksand;
+        font-weight: 550;
+        color : #06A3BF;
+        font-size: 1.5vw;
+        margin-right: 10%;
+    }
 }
 @media only screen and (min-width : 1200px)
 {
@@ -400,15 +524,6 @@
         font-weight: 550;
         color : #575757;
     }
-    .textoGrande
-    {
-        font-family: quicksand;
-        font-size: 1.2em;
-        font-weight: 600;
-        text-align: center;
-        margin-top: 0.5%;
-        margin-left: 0.5%;
-    }
     .iconoPerc
     {
         color : #B39FB6;
@@ -440,7 +555,7 @@
         color : #06A3BF;
         font-size: 4.4vw;
         text-align: center;
-        margin-top: -12%;
+        margin-top: -9%;
     }
     .textoNumeroAlertas
     {
@@ -450,6 +565,7 @@
         font-size: 1.5vw;
         margin-right: 10%;
     }
+    
     
     
 }
@@ -516,6 +632,8 @@
     margin-left : auto;
     margin-right : auto;
     flex-direction: column;
+    padding-top: 12%;
+
 }
 .panelNumAlerReci
 {
@@ -531,6 +649,8 @@
     margin-right : auto;
     flex-direction: column;
     margin-top: 6%;
+    padding-top: 12%;
+
 }
 .circuloDentro
 {
@@ -605,4 +725,13 @@
     height: 80%;
     justify-content: center;
     align-items: flex-start;
+}
+.textoGrande
+{
+    font-family: quicksand;
+    font-size: 1.2em;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 0.5%;
+    margin-left: 0.5%;
 }
