@@ -42,8 +42,8 @@ class Boxes extends React.Component {
         return (
             <div className="box">
                  <FontAwesomeIcon icon={props.icon} size="2x" color="#8F2A92" />
-                <h3><strong>rate: {props.rate}</strong></h3>
-                <h4>alertName: {props.alertName}</h4>
+                <h2><strong> {props.rate} </strong></h2>
+                <h3> {props.alertName} </h3>
             </div>
         )
     }

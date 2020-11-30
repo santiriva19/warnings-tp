@@ -2,7 +2,7 @@ import './App.css';
 import {BrowserRouter as Router, Route} from 'react-router-dom'
 import ModalLogin from './Components/login/modal-login';
 import Dashboard from './Components/dashboard/DashboardFullView'
-import Boxes from './Components/dashboard/Resultados/Resultados'
+// import Boxes from './Components/dashboard/Resultados/Resultados'
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
 
         <Route exact path='/login' component={ModalLogin}/>
         <Route exact path='/dashboard' component={Dashboard}/>
-        <Route exact path='/Boxes' component={Boxes}/>
+        {/* <Route exact path='/Boxes' component={Boxes}/> */}
 
       </Router>
    
