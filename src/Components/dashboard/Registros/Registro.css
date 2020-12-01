@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap'); 
+
+h2, label {
+    color: #535353;
+    font-family : quicksand;
+
+}
+
+.filterbtns input {
+    border: none;
+    background: #8F2A92;
+    width: 16%;
+    height: 6vh;
+    border-radius: 33px;
+    padding: 2%;
+    margin-left: 17%;    
+    font-family : quicksand;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.filterbtns select {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background: #8F2A92;
+    color: #FFFFFF;
+    height: 8vh;
+    width: 12vw;
+    border: none;
+    border-radius: 40px;
+    margin-left: 3%;
+    text-align: center;
+    padding-left: 1.5%;    
+    font-family : quicksand;
+
+    
+}
+
+table.Registros {
+    font-family : quicksand;
+    background-color: #F0F0F0;
+    width: 90%;
+    height: 200px;
+    text-align: center;
+    border-collapse: collapse;
+    border-radius: 1em;
+}
+
+table.Registros td, table.Registros th {
+    border: 0px solid #707070;
+    padding: 3px 2px;
+}
+
+table.Registros tbody td {
+    font-size: 10px;
+    color: #000000;
+}
+
+table.Registros tr:nth-child(even) {
+    background: #F0F0F0;
+    border-radius: 1em;
+}
+
+table.Registros thead {
+    background: #F7F7F7;
+    border-bottom: 2px solid #707070;
+}
+
+table.Registros thead th {
+    font-size: 13px;
+    font-weight: normal;
+    color: #464646;
+    text-align: center;
+}
+#customInputFilter{
+    width: 35%;
+    height: 2.5vh;
+    border-radius: 40px;
+    border-width: 0px;
+    font-family : quicksand;
+    text-align : left;
+    background-color: #CCCCCC;
+    margin-left: 3%;
+    color : black
+}

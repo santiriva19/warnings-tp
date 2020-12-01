@@ -12,7 +12,6 @@ export default function NumEmpleado()
             <FontAwesomeIcon icon={faUser} size="3x" color="#8F2A92" />
             <p className = "tituloAlerReci">Empleados</p>
             <p className = "valorAlerReci">236</p>
-
         </div>
     );
 }

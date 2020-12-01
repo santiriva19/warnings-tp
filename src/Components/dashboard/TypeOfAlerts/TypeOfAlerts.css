@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap'); 
+
+hr {
+    width: 200px;
+    display: inline-flex;
+    height: 2px;
+    background: #707070;
+    /* margin-left: 40px; */
+}
+
+button {
+    border: solid 3px #DB1F1F;
+    background-color: nonoe;
+    width: 140px;
+    height: 50px;
+    border-radius: 20px;
+    color: #DB1F1F;
+    font-family : quicksand; 
+    font-size: 20px;
+    font-weight:bold;
+    outline:none;
+}
+
+h2, p {
+    text-decoration: none;
+    font-family : quicksand;
+    color: #DB1F1F; 
+}
+
+p {
+    margin-left: 40px ;
+}
+
+.registros {
+    margin-left: 30px;
+}
+
+/*  add background color rgba  */

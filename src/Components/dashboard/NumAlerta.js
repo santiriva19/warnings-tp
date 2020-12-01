@@ -4,7 +4,7 @@ import '../../assets/style.css';
 import {Line} from 'react-chartjs-2';
 
 const data = {
-    labels : ['Jan','Feb','Mar','Apr','May','Jun','Jul','Ago','Sep','Oct','Nov','Dec'],
+    labels : ['Mon','Tue','Wen','Thu','Fri','Sat'],
     datasets : 
     [
         {
@@ -14,10 +14,8 @@ const data = {
             borderWidth : 2,
             hoverBackgroundColor : '#D78BD9',
             hoverBorderColor : '#06A3BF',
-            data : [32,15,10,23,4,8,9,48,25,33,20,18],
+            data : [32,15,10,23,4,8],
             borderDashOffset: 0.0,
-
-
         }
     ]
 }

@@ -1,0 +1,69 @@
+.box {
+	display: flex;
+	flex-direction: column;
+	max-height: 150px;
+	max-width: 220px;
+	border: none;
+	background-color:#EFEFEF;
+	border-radius:20px;
+    margin-left: 3%;
+    margin-top: 2%;}
+.contIconBoxAndTextPerBox 
+{
+	display : flex;
+	flex-direction : row;
+	width : 100%;
+	flex : 0.4;
+}
+.contIconBox
+{
+	display : flex;
+	justify-content: center;
+	width: 50%;
+	align-items: center;
+}
+.contTextPerBox{
+	display : flex;
+	justify-content: center;
+	align-items: center;
+	width: 50%;
+	height: 17vh;
+}
+.contTextBox
+{
+	display: flex;
+	flex : 0.6;
+
+}
+.iconBoxes
+{
+	width: 80%;
+}
+.textoBoxesPer
+{
+
+	font-family: 'quicksand';
+	font-weight: 550;
+	text-align: left;
+	font-size: 35px;
+	color : #6F2B71;
+	margin-left: -3%;
+	margin-top: 10%;
+}
+.textoBoxes
+{
+
+	font-family: 'quicksand';
+	font-weight: 500;
+	text-align: right;
+	color: #454545;
+	margin-right: 11%;
+	font-size: 18px;
+    width: 100%;
+}
+.logoInicio{
+	width: 35px;
+	height: 36px;
+	margin-top: 2%;
+	margin-left: 2%;
+}

@@ -12,6 +12,10 @@ import NumEmple from './NumEmple'
 import AlerReci from './AlerReci'
 import Fondo from '../../assets/img/fondoDashboard.jpg'
 import SelectCamp from './SelectCamp'
+import AlertsPopUp from './TypeOfAlerts/TypeOfAlerts';
+import Registro from './Registros/Registros';
+import Boxes from './Resultados/resultados'
+import '../dashboard/Registros/Registro.css'
 
 
 
@@ -72,7 +76,25 @@ export default class DashboardFullView extends Component
                            
                         </div>
                     </div>
+
                 </div>
+                <div className='registros'>
+                    <h2>Resultados</h2>
+                    <hr />
+                </div>    
+                <div className = "boxes">
+                    <div class="col">                   
+                        <Boxes/>
+                    </div>
+                </div>
+
+                <div className = "boxes">
+                    <div style = {{paddingTop : '3%'}} >
+                        <Registro/>
+                    </div>
+                </div>
+                {/* <Registro /> */}
+
             </div>
            
 
@@ -80,17 +102,11 @@ export default class DashboardFullView extends Component
     }
 }
 const styles = {
-    /*
-    cuerpo : 
-    {
-        width : '100%',
-        height : '100vh',
-        backgroundImage : 'url('+Fondo+')',
-        backgroundSize : 'cover',
-        backgroundRepeat: 'no-repeat',
-        backgroundAttachment: 'fixed',
+    cuerpo:{
+        display : 'flex',
+        flexDirection : 'column',
+        flex : 1,
     },
-    */
     header:{
         width : '100%',
         display : 'flex',
@@ -110,14 +126,13 @@ const styles = {
         height : 30,
     },
     contColOneTwo:{
+        
         width: '100%', 
-        height: '90vh', 
         marginLeft : '-0.5',
         //backgroundColor:'red',
         justifyContent: 'space-around',
         flexWrap : 'wrap',
         overFlowX: 'hidden',
-
     },
     firstCol:{
         flex : 0.37,
@@ -172,7 +187,6 @@ const styles = {
         height : '100%',
         //backgroundColor : '#fe5432',
         alignItems : 'center',
-        
     },
     contEmplAndNum:
     {
@@ -180,5 +194,5 @@ const styles = {
         //backgroundColor : 'red',
         height : '100%',
 
-    }
+    },
 }

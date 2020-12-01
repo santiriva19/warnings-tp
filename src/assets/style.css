@@ -77,6 +77,8 @@
         color : #8F2A92;
         font-size: 1.4vw;
         text-align: center;
+        margin-left: 0px;
+
     }
     .valorAlerReci
     {
@@ -86,6 +88,8 @@
         font-size: 4.4vw;
         text-align: center;
         margin-top: -9%;
+        margin-left: 0px;
+
     }
 }
 @media only screen and (min-width : 500) and (max-width : 800) and (max-height : 400px) /* Vista desde celulares volteado */
@@ -172,6 +176,8 @@
         color : #8F2A92;
         font-size: 1.4vw;
         text-align: center;
+        margin-left: 0px;
+
     }
     .valorAlerReci
     {
@@ -181,6 +187,8 @@
         font-size: 4.4vw;
         text-align: center;
         margin-top: -9%;
+        margin-left: 0px;
+
     }
     .textoNumeroAlertas
     {
@@ -275,6 +283,8 @@
         color : #8F2A92;
         font-size: 1.4vw;
         text-align: center;
+        margin-left: 0px;
+
     }
     .valorAlerReci
     {
@@ -284,6 +294,8 @@
         font-size: 4.4vw;
         text-align: center;
         margin-top: -9%;
+        margin-left: 0px;
+
     }
     .textoNumeroAlertas
     {
@@ -379,6 +391,8 @@
         color : #8F2A92;
         font-size: 1.4vw;
         text-align: center;
+        margin-left: 0px;
+
     }
     .valorAlerReci
     {
@@ -388,6 +402,8 @@
         font-size: 4.4vw;
         text-align: center;
         margin-top: -9%;
+        margin-left: 0px;
+
     }
     .textoNumeroAlertas
     {
@@ -478,6 +494,8 @@
         color : #8F2A92;
         font-size: 1.4vw;
         text-align: center;
+        margin-left: 0px;
+
     }
     .valorAlerReci
     {
@@ -487,6 +505,8 @@
         font-size: 4.4vw;
         text-align: center;
         margin-top: -9%;
+        margin-left: 0px;
+
     }
     .textoNumeroAlertas
     {
@@ -580,6 +600,8 @@
         color : #8F2A92;
         font-size: 1.4vw;
         text-align: center;
+        margin-left: 0px;
+
     }
     .valorAlerReci
     {
@@ -589,6 +611,7 @@
         font-size: 4.4vw;
         text-align: center;
         margin-top: -9%;
+        margin-left: 0px;
     }
     .textoNumeroAlertas
     {
@@ -793,4 +816,19 @@
     text-align: center;
     margin-top: 0.5%;
     margin-left: 0.5%;
+}
+.logoInicio
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+..customInputs
+{
+    width: 80%;
+    height: 2.5em;
+    border-radius: 20px;
+    border-width: 0px;
+    font-family : quicksand;
+    text-align : center;
 }
