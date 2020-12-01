@@ -12,6 +12,7 @@ import NumEmple from './NumEmple'
 import AlerReci from './AlerReci'
 import Fondo from '../../assets/img/fondoDashboard.jpg'
 import SelectCamp from './SelectCamp'
+import Boxes from './resBoxes';
 
 
 
@@ -73,8 +74,9 @@ export default class DashboardFullView extends Component
                         </div>
                     </div>
                 </div>
+                <Boxes />
             </div>
-           
+
 
         );
     }

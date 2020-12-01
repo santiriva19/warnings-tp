@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap'); 
+
+.box {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    grid-template-areas: 1fr 1fr;
+
+	height: 220px;
+	width: 200px;
+	border: none;
+	background-color:#E0E0E0;
+	border-radius:20px;
+}
+
+.Resultados{
+    font-family : quicksand;
+}
+
+hr{
+    width: 200px;
+    display: inline-flex;
+    height: 2px;
+    background: #707070;
+}
