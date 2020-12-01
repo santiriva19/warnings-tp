@@ -9,7 +9,7 @@ export default function ModalLogin  ()
 {
     return(
         <div style ={styles.cuerpo}>
-                <img style = {{width : 35, height : 35, margin : '2%'}} src={Logo}/>
+                <img e src={Logo}/>
 
                 <div className = "containerComplement" style={styles.container}>
                     <FontAwesomeIcon style = {{marginBottom : '4%'}} icon={faLock} size="3x" color="#8F2A92"/>
@@ -21,7 +21,7 @@ export default function ModalLogin  ()
         </div>
         
     );
-}
+} 
 
 const styles = {
     
