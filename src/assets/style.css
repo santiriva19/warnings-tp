@@ -823,7 +823,7 @@
     flex-direction: row;
     flex-wrap: wrap;
 }
-..customInputs
+.customInputs
 {
     width: 80%;
     height: 2.5em;

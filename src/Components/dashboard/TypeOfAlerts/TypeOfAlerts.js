@@ -3,18 +3,19 @@ import { Component } from 'react';
 import './TypeOfAlerts.css'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { 
+import 
+{ 
     faUsb
     
 } from '@fortawesome/free-brands-svg-icons'
-import { faInfoCircle, 
+import 
+{ 
+    faInfoCircle, 
     faMobile,
     faBook,
     faTintSlash,
     faPencilAlt
 } from '@fortawesome/free-solid-svg-icons'
-
-import React from 'react';
 import { slide as Menu } from 'react-burger-menu';
 
 export default props => {
@@ -66,4 +67,27 @@ export default props => {
         </div>
     </Menu>
   );
-};
+}
+const styles = {
+    header : 
+    {
+        display: 'flex',
+        flexDirection: 'column',
+    },
+    body : 
+    {
+        display: 'flex',
+        justifyContent: 'center',
+        flexDirection : 'column',
+        width : '30%',
+        height : '100vh',
+    },
+    container : 
+    {
+        display: 'flex',
+        width: '100%',
+        alignItems : 'center',       
+        margin: '30px 0 0 50px',
+    },
+
+  }
