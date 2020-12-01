@@ -20,12 +20,11 @@ export default class DashboardFullView extends Component
     
     render(){
 
-        const [showMenuInfo, setShowMenuInfo] = useState(false);
 
         return(
             <div style = {styles.cuerpo} >
                 <div style={styles.header}>
-                    <FontAwesomeIcon onClick = {setShowMenuInfo(!showMenuInfo)} style = {{ marginLeft : '1%', marginTop : '0.5%' }} icon={faInfoCircle} size="2x" color="#6E6E6E" />
+                    <FontAwesomeIcon style = {{ marginLeft : '1%', marginTop : '0.5%' }} icon={faInfoCircle} size="2x" color="#6E6E6E" />
                     <div style = {styles.centro}>
                         <img style = {styles.logo} src={Logo}/> 
                         <h1 className = "textoGrande" >Dashboard</h1>
