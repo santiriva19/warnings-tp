@@ -21,6 +21,7 @@
     "mdbreact": "^4.27.0",
     "react": "0.0.0-8e5adfbd7",
     "react-bootstrap": "^1.4.0",
+    "react-burger-menu": "^2.7.1",
     "react-chartjs-2": "^2.11.1",
     "react-dom": "0.0.0-8e5adfbd7",
     "react-router-dom": "^5.2.0",
